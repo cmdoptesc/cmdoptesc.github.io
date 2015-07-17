@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>al lin // javascript software engineer // CMD OPT ESC</title>
+    <title>al lin // full-stack software engineer // ⌘⌥⎋ CMD OPT ESC</title>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="san francisco, javascript, engineer, react, js, node, d3, hack reactor, bay area">
+    <meta name="description" content="al lin is an experienced JavaScript engineer focused on improving user experiences through good code.">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,10 +20,10 @@
         <p><a href="http://cmdoptesc.com"><img src="images/cmdoptesc-symbol.png" alt="cmd opt esc" width="150" height="55" border="0"></a></p>
         <p>al lin<br/>software engineer<br />sf/ca</p>
 
-        <p class="view"><a href="https://github.com/cmdoptesc">github</a><br />
-          <a href="http://bl.ocks.org/cmdoptesc">d3 bl.ocks</a><br />
-          <a href="https://linkedin.com/in/alsfca">linkedin</a><br />
-          <a href="http://cmdoptesc.tumblr.com/">tumblr</a></p>
+        <p class="view"><a href="https://github.com/cmdoptesc" id="link-side-github">github</a><br />
+          <a href="https://d3og.com/cmdoptesc/" id="link-side-d3blocks">d3og (rip bl.ocks.org)</a><br />
+          <a href="https://cmdoptesc.tumblr.com/" id="link-side-tumblr">tumblr</a></br />
+          <a href="https://linkedin.com/in/alinsf" id="link-side-linkedin">linkedin</a><p />
 
       </header>
       <section>
@@ -33,12 +35,12 @@
 
 <h4>hatch &amp; oaktree</h4>
 <p>Location-based messaging app. Worked on the back-end to to authenticate users and send/receive messages using Node.js/Express and Mongoose/Mongo. Image storage utilised Microsoft Azure and push notifications were done with Apple Push Notification Service. Project was developed and tested with a two other Hack Reactor teammates and finished in the span of two weeks. Now in the process of deploying it to the App Store.</p>
-<p><a href="http://cmdoptesc.com/hatch"><img src="images/screenshot-hatch.png" alt="iPhone screenshots of Hatch messaging app" width="480" class="screenshot"></a></p>
+<p><a href="http://cmdoptesc.com/hatch" id="link-body-hatch-thumbnail"><img src="images/screenshot-hatch.png" alt="iPhone screenshots of Hatch messaging app" width="480" class="screenshot"></a></p>
 
 <p>&nbsp;</p>
 <h4>muniNow</h4>
 <p>D3? Yes please. Personal project dealing with the Nextbus API and exploring a better interface to show transit times for users. Future plans include finding bus stops closest to a user and eventually predictive analytics based on past Muni data.</p>
-<p><a href="http://bl.ocks.org/cmdoptesc/raw/6224455"><img src="images/screenshot-muninow.png" alt="muniNow D3.js screenshot" width="480" class="screenshot"></a></p>
+<p><a href="http://bl.ocks.org/cmdoptesc/raw/6224455" id="link-body-muninow-thumbnail"><img src="images/screenshot-muninow.png" alt="muniNow D3.js bus prediction screenshot" width="480" class="screenshot"></a></p>
 
 <p>&nbsp;</p>
 <h4>Ruins: A Geography Game</h4>
@@ -47,8 +49,8 @@
 
 <p>&nbsp;</p>
 <h4>Open Hours</h4>
-<p>D3-powered interface to intuitively display <a href="http://bl.ocks.org/cmdoptesc/6531299">which restaurants are currently open</a>. Started as a problem to parse CSV files in JavaScript and evolved into a D3 side-project. Looking to interface with Yelp, but their API doesn't provide store schedules, in the process of scraping dat data.</p>
-<p><a href="http://bl.ocks.org/cmdoptesc/6531299"><img src="images/screenshot-openhours.png" alt="openhours d3 chat screenshot" width="480" class="screenshot"></a></p>
+<p>D3-powered interface to intuitively display <a href="http://bl.ocks.org/cmdoptesc/6531299" id="link-body-openhours">which restaurants are currently open</a>. Started as a problem to parse CSV files in JavaScript and evolved into a D3 side-project. Looking to interface with Yelp, but their API doesn't provide store schedules, in the process of scraping dat data.</p>
+<p><a href="http://bl.ocks.org/cmdoptesc/6531299" id="link-body-openhours-thumbnail"><img src="images/screenshot-openhours.png" alt="openhours d3 interface screenshot" width="480" class="screenshot"></a></p>
 
       </section>
       <footer>
@@ -63,6 +65,7 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-43774122-1', 'cmdoptesc.com');
+      ga('require', 'linkid');
       ga('send', 'pageview');
     </script>
 
